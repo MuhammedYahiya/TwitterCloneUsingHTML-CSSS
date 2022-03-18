@@ -1,0 +1,579 @@
+body{
+  margin: 0;
+}
+.main-body{
+  display: flex;
+}
+.left_side{
+  position: relative;
+  width: 30%;
+  height: 1000px;
+  background: white;
+  float: left;
+  border-right: 1px solid ;
+    border-style: ridge;
+}
+
+.middle_side{
+  width: 30%;
+  height: 1000px;
+  border-right: 1px solid;
+    border-style: ridge;
+}
+.right_side{
+  width: 20%;
+  height: 1000px;
+
+
+
+}
+.logo{
+
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+.logo_image{
+    margin-left: 308px;
+    width: 36px;
+    margin-top: 12px
+}
+.Home{
+  height: 45px;
+  width: 100%;
+}
+.home_image{
+  position: absolute;
+   width: 33px;
+   left: 310px;
+
+}
+.home_para{
+  position: absolute;
+ top: 49px;
+ left: 372px;
+ font-weight: 700;
+ font-size: 20px;
+ font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.explore{
+
+  height: 45px;
+  width: 100%;
+}
+.explore_img{
+     position: absolute;
+     width: 31px;
+     right: 230px;
+     top: 109px;
+}
+.explore_para{
+   position: absolute;
+   left: 370px;
+   top: 94px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.notification{
+
+  height: 45px;
+  width: 100%;
+}
+.notification_img{
+    width: 31px;
+    position: absolute;
+    top: 159px;
+    left: 308px;
+}
+.not_para{
+   position: absolute;
+   top: 141px;
+   left: 367px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.message{
+
+  height: 45px;
+  width: 100%;
+}
+.message_img{
+    position: absolute;
+    width: 31px;
+    left: 308px;
+    top: 201px;
+}
+.message_para{
+   position: absolute;
+   top: 186px;
+   left: 366px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.bookmark{
+
+  height: 45px;
+  width: 100%;
+}
+.bookmark_img{
+    position: absolute;
+    width: 31px;
+    left: 308px;
+    top: 245px;
+}
+.bookmark_para{
+  position: absolute;
+   top: 230px;
+   left: 364px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.lists{
+  width: 100%;
+  height: 45px;
+}
+.lists_img{
+   position: absolute;
+    width: 31px;
+    left: 308px;
+    top: 293px;
+}
+.lists_para{
+  position: absolute;
+  top: 278px;
+  left: 368px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.profile{
+  width: 100%;
+  height: 45px;
+}
+.profile_img{
+    position: absolute;
+    width: 31px;
+    left: 308px;
+    top: 341px;
+}
+.profile_para{
+  position: absolute;
+  top: 328px;
+  left: 366px;
+  font-size: 20px;
+  font-family: TwitterChirp
+}
+.more{
+  width: 100%;
+  height: 45px;
+}
+.more_img{
+   position: absolute;
+    width: 31px;
+    left: 308px;
+    top: 395px;
+}
+.more_para{
+  position: absolute;
+  top: 379px;
+  left: 366px;
+  font-size: 20px;
+  font-family: TwitterChirp;
+}
+.tweet_button{
+  position: absolute;
+  border-radius: 51px;
+ border: 0px;
+ height: 57px;
+ left: 284px;
+ top: 457px;
+ padding-left: 90px;
+ padding-right: 101px;
+ font-weight: 700;
+ font-size: 20px;
+ background:
+
+}
+/*left_side is completed*/
+
+/*middle_side is start*/
+.border{
+  position: relative;
+  width: 100%;
+  height: 168px;
+
+}
+p{
+
+}
+.border_home{
+  margin: 0;
+  margin-left: 20px;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.my_photo{
+  max-width: 66px;
+ margin-left: 19px;
+ margin-top: 24px;
+ border-radius: 50%;
+}
+.para{
+  position: absolute;
+    top: 48%;
+    left: 19%;
+    font-size: 20px;
+    border-radius: 0;
+    border:0;
+
+}
+.my_photo{
+  position: absolute;
+
+}
+.galary{
+  position: absolute;
+ margin-left: 96px;
+ margin-top: 102px;
+ max-width: 23px;
+
+}
+.gif{
+  position: absolute;
+  margin-left: 132px;
+  margin-top: 102px;
+  max-width: 21px;
+}
+.poll{
+  position: absolute;
+  margin-left: 161px;
+  margin-top: 104px;
+  max-width: 21px;
+}
+.emoji{
+  position: absolute;
+  margin-left: 193px;
+  margin-top: 102px;
+  max-width: 21px;
+}
+.schedule{
+  position: absolute;
+  margin-left: 228px;
+  margin-top: 102px;
+  max-width: 21px;
+}
+.location{
+  position: absolute;
+  margin-left: 264px;
+  margin-top: 102px;
+  max-width: 21px;
+}
+.tweet_1{
+  width: 100%;
+  height: 126px;
+  position:  relative;
+}
+.chat{
+   max-width: 56px;
+   position: absolute;
+   left: 19px;
+   border-radius: 50%;
+
+
+}
+.nemsec{
+  position: absolute;
+  left: 87px;
+  font-weight: 700;
+}
+.at{
+  position: absolute;
+  left: 211px;
+}
+.nem_para{
+  position: absolute;
+   bottom: 95px;
+   top: 17px;
+   left: 88px;
+   font-family: inherit;
+}
+.nem_para2{
+  position: absolute;
+   bottom: 103px;
+   top: 37px;
+    left: 88px;
+    font-family: TwitterChirp;
+}
+.nem_para3{
+  position: absolute;
+    bottom: 18px;
+    left: 88px;
+    font-family: TwitterChirp;
+}
+.replay{
+  position: absolute;
+    top: 108px;
+    max-width: 18px;
+    left: 85px;
+}
+.retweet{
+  position: absolute;
+    top: 107px;
+    left: 189px;
+}
+.like{
+  position: absolute;
+    top: 107px;
+    max-width: 20px;
+    left: 300px;
+}
+.share{
+  position: absolute;
+    left: 406px;
+    top: 106px;
+    max-width: 23px;
+}
+.tweet_2{
+  width: 100%;
+  height: 126px;
+  position:  relative;
+
+}
+.gene_profile{
+  position: absolute;
+  max-width: 58px;
+  border-radius: 50%;
+  left: 17px;
+}
+.gene{
+  position: absolute;
+  left: 85px;
+  font-family: TwitterChirp;
+  font-weight: 700;
+}
+.at2{
+  position: absolute;
+  left: 197px;
+}
+.gene_para1{
+    position: absolute;
+    left: 85px;
+    top: 21px;
+}
+.gene_para2{
+  position: absolute;
+  top: 44px;
+  left: 83px;
+}
+.tweet_3{
+  width: 100%;
+  height: 126px;
+  position:  relative;
+
+}
+.occupy_img{
+  position: absolute;
+  max-width: 58px;
+  border-radius: 50%;
+  left: 17px;
+}
+.occupy{
+  position: absolute;
+  left: 85px;
+  font-family: TwitterChirp;
+  font-weight: 700;
+}
+.at3{
+  position: absolute;
+  left: 197px;
+}
+.occupy_para1{
+    position: absolute;
+    left: 85px;
+    top: 21px;
+}
+.occupy_para2{
+  position: absolute;
+  top: 44px;
+  left: 83px;
+}
+.tweet_4{
+  width: 100%;
+  height: 126px;
+  position:  relative;
+
+}
+.chris_image{
+  position: absolute;
+  max-width: 58px;
+  border-radius: 50%;
+  left: 17px;
+}
+.chris{
+  position: absolute;
+  left: 85px;
+  font-family: TwitterChirp;
+  font-weight: 700;
+}
+.at4{
+  position: absolute;
+  left: 228px;
+}
+.chris_para1{
+    position: absolute;
+    left: 85px;
+    top: 21px;
+}
+.chris_para2{
+  position: absolute;
+  top: 44px;
+  left: 83px;
+}
+.chris_para3{
+  position: absolute;
+    bottom: 10px;
+    left: 83px;
+    font-family: TwitterChirp;
+}
+.tweet_5{
+  width: 100%;
+  height: 126px;
+  position:  relative;
+}
+.pentest_img{
+  position: absolute;
+  max-width: 58px;
+  border-radius: 50%;
+  left: 17px;
+}
+.pentest{
+  position: absolute;
+  left: 85px;
+  font-family: TwitterChirp;
+  font-weight: 700;
+}
+.at5{
+  position: absolute;
+  left: 189px;
+}
+.pentest_para1{
+  position: absolute;
+  left: 85px;
+  top: 21px;
+}
+.pentest_para2{
+  position: absolute;
+  top: 72px;
+  left: 83px;
+}
+.pentest_para3{
+  position: absolute;
+    bottom: -18px;
+    left: 83px;
+    font-family: TwitterChirp;
+}
+.pentest_para4{
+  position: absolute;
+  top: 148px;
+  left: 83px;
+}
+.replay1{
+  position: absolute;
+    top: 185px;
+    max-width: 18px;
+    left: 85px;
+}
+.retweet1{
+  position: absolute;
+    top: 185px;
+    left: 189px;
+}
+.like1{
+  position: absolute;
+    top: 185px;
+    max-width: 20px;
+    left: 300px;
+}
+.share1{
+  position: absolute;
+    left: 406px;
+    top: 185px;
+    max-width: 23px;
+}
+.search_bar{
+  width: 100%;
+  height: 66px;
+
+  }
+.search{
+  position: absolute;
+   border-radius: 33px;
+   top: 6px;
+   padding: 16px;
+   padding-left: 31px;
+   right: 523px;
+   padding-right: 6px;
+}
+.col{
+  width: 100%;
+height: 272px;
+border: 1px solid;
+border-radius: 13px;
+margin-left: 34px;
+border-style: ridge;
+}
+.paragra1{
+  position: absolute;
+    right: 476px;
+    top: 45px;
+    font-size: 29px;
+    font-weight: 700;
+    font-family: TwitterChirp;
+}
+.holi{
+  position: absolute;
+top: 108px;
+right: 589px;
+}
+.holi_para1{
+  position: absolute;
+    top: 127px;
+    right: 591px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.holi_para2{
+  position: absolute;
+   top: 158px;
+   right: 527px;
+}
+.holi_img{
+  position: absolute;
+  border-radius: 20px;
+  top: 119px;
+   max-width: 93px;
+   right: 375px;
+
+}
+.sbi{
+  position: absolute;
+  top: 196px;
+ right: 574px;
+ font-size: 20px;
+ font-weight: 700
+}
+.sbi_para1{
+  position: absolute;
+  top: 230px;
+  right: 528px;
+
+}
+.sbi_para2{
+  position: absolute;
+    top: 256px;
+    right: 523px;
+    font-size: 13px;
+}
+hr{
+  border-style: ridge;
+}
